@@ -7,7 +7,7 @@ services:
       APP_PORT: 9091
 
   server:
-    image: linuxserver/transmission:4.0.4@sha256:760b2d364dbfb6d84c9688f624dc48f98665b15e9e41be2170715afcc525e329
+    image: linuxserver/transmission:4.0.5@sha256:cf55ca28d3480155b9121c36f54835d82fa2f94e30ed6a250565fabd72a23abe
     environment:
       - PUID=1000
       - PGID=1000
